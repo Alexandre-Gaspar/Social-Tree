@@ -26,7 +26,8 @@ body
 /* Formating the container div */
 #container
 {
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     height: 896px;
     margin: auto;
     padding: 126px 44px;
@@ -44,7 +45,7 @@ body
 
 #profile img
 {
-    width: 213px;
+    width: 200px;
     padding: 5px;
     border: 2px solid var(--purple);
     border-radius: 50%;
@@ -90,9 +91,11 @@ body
     padding: 0;
     display: flex;
     justify-content: space-around;
+    /*border: 1px solid red;*/
 }
 
 #social_link_icons a
 {
     text-decoration: none;
 }
+
